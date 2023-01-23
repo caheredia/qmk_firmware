@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "notes": "",
+  "notes": "My awesome keymap",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "ferris/sweep",
   "keymap": "ferris_sweep_layout_mine",
@@ -37,10 +37,10 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "KC_TAB",
+      "KC_BSPC",
       "KC_SPC",
       "KC_ENT",
-      "LT(1,KC_BSPC)"
+      "TO(1)"
     ],
     [
       "KC_EXLM",
@@ -73,10 +73,10 @@
       "KC_P2",
       "KC_P3",
       "KC_PEQL",
-      "LT(0,KC_TAB)",
+      "TO(0)",
       "KC_SPC",
       "KC_ENT",
-      "LT(2,KC_BSPC)"
+      "LT(2,KC_TAB)"
     ],
     [
       "KC_NO",
@@ -295,5 +295,5 @@
       "KC_TRNS"
     ]
   ],
-  "author": ""
+  "author": "Anonymous"
 }
